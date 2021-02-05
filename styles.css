@@ -7,6 +7,9 @@
   list-style: none;
   font-family: "Montserrat", sans-serif;
 }
+.page-wrap {
+  height: auto;
+}
 .single-space {
   line-height: 1;
 }
@@ -237,4 +240,7 @@ body {
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
+}
+@media print {
+  p {page-break-after: always: }
 }
