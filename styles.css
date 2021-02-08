@@ -243,6 +243,6 @@ body {
 }
 window.print()
 @media print {
-  @page { margin: 0; }
+  @page { margin: 2cm; }
   p {page-break-after: always: }
 }
